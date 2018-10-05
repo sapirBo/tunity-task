@@ -1,0 +1,27 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test apecified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapirBo/tunity-task.git"
+  },
+  "author": "Sapir Boani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapirBo/tunity-task/issues"
+  },
+  "homepage": "https://github.com/sapirBo/tunity-task#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  }
+}
