@@ -1,7 +1,7 @@
 {
-  "name": "todolistapi",
+  "name": "tunity-task",
   "version": "1.0.0",
-  "description": "RESTful todoListApi",
+  "description": "RESTful Api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test apecified\" && exit 1",
@@ -21,7 +21,9 @@
     "nodemon": "^1.18.4"
   },
   "dependencies": {
+    "connect": "^3.6.6",
     "express": "^4.16.3",
-    "mongoose": "^5.3.1"
+    "mongoose": "^5.3.1",
+    "request-ip": "^2.1.1"
   }
 }
